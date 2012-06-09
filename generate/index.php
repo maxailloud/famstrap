@@ -8,14 +8,14 @@
         <meta name="author" content="Maxime AILLOUD">
 
         <!-- Le styles -->
-        <link href="assets/css/bootstrap.css" rel="stylesheet">
-        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-        <link href="assets/css/famstrap.css" rel="stylesheet">
-        <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="../assets/css/bootstrap.css" rel="stylesheet">
+        <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="../assets/css/famstrap.css" rel="stylesheet">
+        <link href="../assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+        <link href="../assets/css/style.css" rel="stylesheet">
 
         <!-- Le fav and touch icons -->
-        <link rel="shortcut icon" href="assets/img/favicon.ico">
+        <link rel="shortcut icon" href="../assets/img/favicon.ico">
     </head>
 
     <body data-spy="scroll">
@@ -57,7 +57,7 @@
                 <div class="row">
 <?php
 
-$files = new DirectoryIterator(__DIR__ . '/famfamfam_silk_icons_v013/icons');
+$files = new DirectoryIterator(__DIR__ . '/icons');
 $i = 0;
 foreach($files as $file)
 {
@@ -227,10 +227,10 @@ foreach($files as $file)
 
         </div><!-- /container -->
 
-        <script src="assets/js/jquery.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/google-code-prettify/prettify.js"></script>
-        <script src="assets/js/application.js"></script>
+        <script src="../assets/js/jquery.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+        <script src="../assets/js/google-code-prettify/prettify.js"></script>
+        <script src="../assets/js/application.js"></script>
 
     </body>
 </html>
